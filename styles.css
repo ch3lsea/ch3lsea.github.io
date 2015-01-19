@@ -106,13 +106,20 @@ a:hover {
 }
 
 #footer p {
+	float: left;
+	left: 36%;
 	position: relative;
-	padding-top: 15px;
+	padding-top: 0px;
 	font-family: 'Quicksand', sans-serif;
+	font-size: 16px;
 	color: #FFFFFF;
 }
 
-#footer a {
-    color: #FFFFFF;
-    font-family: 'Quicksand', sans-serif;
+#footer img {
+	border-radius: 5px;
+	border: 1px solid #fff;
+	height: 20px;
+	width: 20px;
+	display: inline;
+	margin-left: 6px;
 }
