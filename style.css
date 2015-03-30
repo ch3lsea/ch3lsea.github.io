@@ -46,3 +46,12 @@ button{
 	line-height: 10px;
 	margin-left: 46.08%;
 }
+
+.last {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 13px;
+}
