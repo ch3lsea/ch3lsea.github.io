@@ -10,7 +10,10 @@ $(document).ready(function() {
             return;
         };
         var userChoice = prompt("Now, pick a whole number 1 through 5 and enter it below", "Enter your number here");
-        if(isNaN(userChoice)) {
+        if(userChoice == "" || userChoice == " ") {
+            alert("Sorry, that wasn't a number between 1 and 5, please try again.");
+            return;
+        } else if(isNaN(userChoice)) {
             alert("Sorry, that wasn't a number between 1 and 5, please try again.");
             return;
         } else if(userChoice > 5) {
