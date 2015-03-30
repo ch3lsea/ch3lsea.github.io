@@ -41,16 +41,16 @@ $(document).ready(function() {
         switch(first) {
             case 'EVEN':
                 if(sum % 2 === 0) {
-                    alert("Congratulations! You won! \nIf you'd like to play again, you know what to do.");
+                    alert("Congratulations! You won!\nIf you'd like to play again, you know what to do.");
                 } else if(sum % 2 !== 0) {
-                    alert("As the knight from Indiana Jones and the Last Crusade would say, \"You chose poorly.\" Thanks for playing! \nIf you'd like to play again, you know what to do.");
+                    alert("As the knight from Indiana Jones and the Last Crusade would say, \"You chose poorly.\"\nThanks for playing!\nIf you'd like to play again, you know what to do.");
                 };
             break;
             case 'ODD':
                 if(sum % 2 === 0) {
-                    alert("Sorry, you've lost. \nIf you'd like to play again, you know what to do.");
+                    alert("Sorry, you've lost.\nIf you'd like to play again, you know what to do.");
                 } else if(sum % 2 !== 0) {
-                    alert("Well played. You've won! \nIf you'd like to play again, you know what to do.");
+                    alert("Well played. You've won!\nIf you'd like to play again, you know what to do.");
                 };
             break;
             default:
