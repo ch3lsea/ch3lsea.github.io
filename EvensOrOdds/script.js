@@ -19,7 +19,7 @@ $(document).ready(function() {
         } else if(userChoice > 5) {
             alert("Sorry, that wasn't a number between 1 and 5, please try again.");
             return;
-        } else if(userChoice < 1) {
+        } else if(userChoice.indexOf("-") > -1) {
             alert("Sorry, that wasn't a POSITIVE number between 1 and 5, please try again.");
             return;
         } else if(userChoice.indexOf(".") > -1) {
